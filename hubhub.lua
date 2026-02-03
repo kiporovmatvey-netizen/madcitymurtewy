@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://[Log in to view URL]'))()
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "💎mad city script🔫",
@@ -6,7 +6,7 @@ local Window = Rayfield:CreateWindow({
    LoadingTitle = "join our server...",
    LoadingSubtitle = "by murtewy",
    ShowText = "💎mad city script🔫", -- for mobile users to unhide rayfield, change if you'd like
-   Theme = "", -- Check https://[Log in to view URL]
+   Theme = "Default", -- Check https://[Log in to view URL]
 
    ToggleUIKeybind = "P", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
 
@@ -21,7 +21,7 @@ local Window = Rayfield:CreateWindow({
 
    Discord = {
       Enabled = true, -- Prompt the user to join your Discord server if their executor supports it
-      Invite = "https://[Log in to view URL]", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      Invite = "https://discord.gg/VuTgPvED", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
 
@@ -66,13 +66,13 @@ local AimbotSection = AimbotTab:CreateSection("Aimbot!")
 local Button = AimbotTab:CreateButton({
    Name = "Enable aimbot!",
    Callback = function()
-        loadstring(game:HttpGet("https://[Log in to view URL]", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ReWelp/ChairHub./refs/heads/main/universalaimbot.lua", true))()
    end,
 })
 local Button = AimbotTab:CreateButton({
        Name = "Ну извините, скрипт еще не доделан. Если пока что нравится и хотите чтобы продвигалось тогда оставайтесь:3 (Нажми на меня чтобы включить Zglad hub)",
    Callback = function()
-        loadstring(game:HttpGet(('https://[Log in to view URL]'),true))()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/VanPotent/EpicHub/refs/heads/main/loader.lua'),true))()
    end,
 })
 
